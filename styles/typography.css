@@ -1,0 +1,52 @@
+:root {
+  --font-heading: "Syne", system-ui, sans-serif;
+  --font-body: "Syne", system-ui, sans-serif;
+  --font-label: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", monospace;
+
+  --text-display-size: clamp(56px, 10vw, 128px);
+  --text-display-line: 0.86;
+  --text-display-weight: 700;
+
+  --text-heading-size: clamp(36px, 6vw, 72px);
+  --text-heading-line: 0.94;
+  --text-heading-weight: 700;
+
+  --text-body-size: 18px;
+  --text-body-line: 1.55;
+  --text-body-weight: 400;
+
+  --text-label-size: 14px;
+  --text-label-line: 1.2;
+  --text-label-weight: 600;
+  --text-label-tracking: 0.02em;
+}
+
+.text-display {
+  font-family: var(--font-heading);
+  font-size: var(--text-display-size);
+  font-weight: var(--text-display-weight);
+  line-height: var(--text-display-line);
+}
+
+.text-heading {
+  font-family: var(--font-heading);
+  font-size: var(--text-heading-size);
+  font-weight: var(--text-heading-weight);
+  line-height: var(--text-heading-line);
+}
+
+.text-body {
+  font-family: var(--font-body);
+  font-size: var(--text-body-size);
+  font-weight: var(--text-body-weight);
+  line-height: var(--text-body-line);
+}
+
+.text-label {
+  font-family: var(--font-label);
+  font-size: var(--text-label-size);
+  font-weight: var(--text-label-weight);
+  letter-spacing: var(--text-label-tracking);
+  line-height: var(--text-label-line);
+}
