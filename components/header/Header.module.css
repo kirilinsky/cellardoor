@@ -74,7 +74,14 @@
 
 .navLink:focus-visible {
   color: var(--color-foreground);
-  outline: none;
+  outline: 2px solid var(--color-accent);
+  outline-offset: 6px;
+}
+
+.logo:focus-visible,
+.mobileLogo:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 8px;
 }
 
 .mobileHeader {
@@ -139,6 +146,11 @@
     list-style: none;
   }
 
+  .menuButton:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 6px;
+  }
+
   .menuButton::-webkit-details-marker {
     display: none;
   }
@@ -194,6 +206,13 @@
   .mobileNavLink:hover {
     background: rgb(245 245 245 / 10%);
     color: var(--color-accent);
+  }
+
+  .mobileNavLink:focus-visible {
+    background: rgb(245 245 245 / 10%);
+    color: var(--color-accent);
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
   }
 }
 

@@ -27,9 +27,9 @@ export function Header() {
       <div className={styles.mobileHeader}>
         <details className={styles.mobileMenu}>
           <summary className={styles.menuButton} aria-label="Open navigation">
-            <span />
-            <span />
-            <span />
+            <span aria-hidden="true" />
+            <span aria-hidden="true" />
+            <span aria-hidden="true" />
           </summary>
 
           <nav className={styles.mobileNav} aria-label="Mobile navigation">

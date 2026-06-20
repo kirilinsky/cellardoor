@@ -1,9 +1,5 @@
-import styles from "./page.module.css";
+import { Hero } from "@/components/hero/Hero";
 
 export default function Home() {
-  return (
-    <section className={styles.hero}>
-      <div className={styles.content}></div>
-    </section>
-  );
+  return <Hero />;
 }
